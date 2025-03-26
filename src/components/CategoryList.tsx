@@ -48,6 +48,22 @@ const CategoryList = () => {
           <h1 className="">Accessories</h1>
           <span>(18)</span>
         </Link>
+
+        <h2 className="text-center font-semibold text-xl my-6">Sizes</h2>
+        <Link href="/list?cat=test" className="flex items-center justify-between ">
+          <h1 className="">Small</h1>
+          <span>(33)</span>
+        </Link>
+
+        <Link href="/list?cat=test" className="flex items-center justify-between ">
+          <h1 className="">Medium</h1>
+          <span>(12)</span>
+        </Link>
+
+        <Link href="/list?cat=test" className="flex items-center justify-between ">
+          <h1 className="">Large</h1>
+          <span>(65)</span>
+        </Link>
       </div>
     </div>
   );
