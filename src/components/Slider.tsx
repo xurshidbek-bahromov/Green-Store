@@ -1,6 +1,8 @@
 "use client";
 
+import { url } from "inspector";
 import Image from "next/image";
+import Link from "next/link";
 import { use, useEffect, useState } from "react";
 
 const slides = [
@@ -12,6 +14,7 @@ const slides = [
     title: "LET'S MAKE A BETTER PLANET",
     description:
       "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+    url: "/",  
   },
   {
     id: 2,
@@ -21,6 +24,7 @@ const slides = [
     title: "LET'S LIVE IN A BETTER PLANET",
     description:
       "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+    url: "/",
   },
   {
     id: 3,
@@ -30,6 +34,7 @@ const slides = [
     title: "LET'S OBSERVE A BETTER PLANET",
     description:
       "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+    url: "/",
   },
 ];
 
@@ -37,13 +42,13 @@ const Slider = () => {
   const [current, setCurrent] = useState(0);
 
 
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//         setCurrent(prev => (prev === slides.length - 1 ? 0 : prev + 1));
-//     }, 3000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+        setCurrent(prev => (prev === slides.length - 1 ? 0 : prev + 1));
+    }, 3000);
 
-//     return () => clearInterval(interval);
-//   }, []);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="h-[calc(100vh-80px)] overflow-hidden ">
@@ -61,6 +66,9 @@ const Slider = () => {
                 {slide.title}
               </h1>
               <p className="text-xl">{slide.description}</p>
+              <Link href={slide.url}>
+                <button className="rounded-md bg-green-500 text-white py-3 px-4">SHOP NOW</button>
+              </Link>
             </div>
             {/* image container */}
             <div className="h-1/2 xl:w-1/2 xl:h-full relative">

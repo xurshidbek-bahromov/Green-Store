@@ -1,106 +1,52 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const CategoryList = () => {
   return (
-    <div className="px-4 overflow-x-scroll">
-      <div className="flex gap-4 md:gap-8">
-        <Link href="/list?cat=test" className="flex-shrink-0 w-full  sm:w-1/2  lg:w-1/4  xl:w-1/6">
-          <div className="relative bg-slate-100 w-full h-96">
-            <Image
-              src="https://images.pexels.com/photos/17499404/pexels-photo-17499404/free-photo-of-close-up-of-a-bunch-of-blue-carnations-in-a-vase.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
-              fill
-              sizes="20vw"
-              className="object-cover"
-            />
-          </div>
-
-          <h1 className="mt-8 font-light text-cl tracking-wide">Category Name</h1>
+    <div className="">
+      <div className="flex flex-col gap-2 md:gap-4">
+        <Link href="/list?cat=test" className="flex items-center justify-between">
+          <h1 className="">House Plants</h1>
+          <span>(33)</span>
         </Link>
 
-        <Link href="/list?cat=test" className="flex-shrink-0 w-full  sm:w-1/2  lg:w-1/4  xl:w-1/6">
-          <div className="relative bg-slate-100 w-full h-96">
-            <Image
-              src="https://images.pexels.com/photos/17499404/pexels-photo-17499404/free-photo-of-close-up-of-a-bunch-of-blue-carnations-in-a-vase.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
-              fill
-              sizes="20vw"
-              className="object-cover"
-            />
-          </div>
-
-          <h1 className="mt-8 font-light text-cl tracking-wide">Category Name</h1>
+        <Link href="/list?cat=test" className="flex items-center justify-between ">
+          <h1 className="">Potter Plants</h1>
+          <span>(12)</span>
         </Link>
 
-        <Link href="/list?cat=test" className="flex-shrink-0 w-full  sm:w-1/2  lg:w-1/4  xl:w-1/6">
-          <div className="relative bg-slate-100 w-full h-96">
-            <Image
-              src="https://images.pexels.com/photos/17499404/pexels-photo-17499404/free-photo-of-close-up-of-a-bunch-of-blue-carnations-in-a-vase.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
-              fill
-              sizes="20vw"
-              className="object-cover"
-            />
-          </div>
-
-          <h1 className="mt-8 font-light text-cl tracking-wide">Category Name</h1>
+        <Link href="/list?cat=test" className="flex items-center justify-between">
+          <h1 className="">Seeds</h1>
+          <span>(65)</span>
         </Link>
 
-        <Link href="/list?cat=test" className="flex-shrink-0 w-full  sm:w-1/2  lg:w-1/4  xl:w-1/6">
-          <div className="relative bg-slate-100 w-full h-96">
-            <Image
-              src="https://images.pexels.com/photos/17499404/pexels-photo-17499404/free-photo-of-close-up-of-a-bunch-of-blue-carnations-in-a-vase.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
-              fill
-              sizes="20vw"
-              className="object-cover"
-            />
-          </div>
-
-          <h1 className="mt-8 font-light text-cl tracking-wide">Category Name</h1>
+        <Link href="/list?cat=test" className="flex items-center justify-between ">
+          <h1 className="">Small Plants</h1>
+          <span>(39)</span>
         </Link>
 
-        <Link href="/list?cat=test" className="flex-shrink-0 w-full  sm:w-1/2  lg:w-1/4  xl:w-1/6">
-          <div className="relative bg-slate-100 w-full h-96">
-            <Image
-              src="https://images.pexels.com/photos/17499404/pexels-photo-17499404/free-photo-of-close-up-of-a-bunch-of-blue-carnations-in-a-vase.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
-              fill
-              sizes="20vw"
-              className="object-cover"
-            />
-          </div>
-
-          <h1 className="mt-8 font-light text-cl tracking-wide">Category Name</h1>
+        <Link href="/list?cat=test" className="flex items-center justify-between ">
+          <h1 className="">Big Plants</h1>
+          <span>(23)</span>
         </Link>
 
-        <Link href="/list?cat=test" className="flex-shrink-0 w-full  sm:w-1/2  lg:w-1/4  xl:w-1/6">
-          <div className="relative bg-slate-100 w-full h-96">
-            <Image
-              src="https://images.pexels.com/photos/17499404/pexels-photo-17499404/free-photo-of-close-up-of-a-bunch-of-blue-carnations-in-a-vase.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
-              fill
-              sizes="20vw"
-              className="object-cover"
-            />
-          </div>
-
-          <h1 className="mt-8 font-light text-cl tracking-wide">Category Name</h1>
+        <Link href="/list?cat=test" className="flex items-center justify-between ">
+          <h1 className="">Succulents</h1>
+          <span>(17)</span>
         </Link>
 
-        <Link href="/list?cat=test" className="flex-shrink-0 w-full  sm:w-1/2  lg:w-1/4  xl:w-1/6">
-          <div className="relative bg-slate-100 w-full h-96">
-            <Image
-              src="https://images.pexels.com/photos/17499404/pexels-photo-17499404/free-photo-of-close-up-of-a-bunch-of-blue-carnations-in-a-vase.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
-              fill
-              sizes="20vw"
-              className="object-cover"
-            />
-          </div>
+        <Link href="/list?cat=test" className="flex items-center justify-between ">
+          <h1 className="">Trerrariums</h1>
+          <span>(19)</span>
+        </Link>
 
-          <h1 className="mt-8 font-light text-cl tracking-wide">Category Name</h1>
+        <Link href="/list?cat=test" className="flex items-center justify-between ">
+          <h1 className="">Gardening</h1>
+          <span>(13)</span>
+        </Link>
+
+        <Link href="/list?cat=test" className="flex items-center justify-between ">
+          <h1 className="">Accessories</h1>
+          <span>(18)</span>
         </Link>
       </div>
     </div>
