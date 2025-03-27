@@ -45,7 +45,7 @@ const RegisterForm: React.FC<RegisterFormProps> = ({ onRegistrationSuccess }) =>
     <>
       <form onSubmit={handleRegister} className="space-y-4">
         <div>
-          <label className="block text-gray-600 text-sm mb-1">Name</label>
+          <label className="block text-gray-600 text-sm mb-1">Name <span className="text-red-500">*</span></label>
           <input
             type="text"
             value={name}
@@ -55,7 +55,7 @@ const RegisterForm: React.FC<RegisterFormProps> = ({ onRegistrationSuccess }) =>
           />
         </div>
         <div>
-          <label className="block text-gray-600 text-sm mb-1">Surname</label>
+          <label className="block text-gray-600 text-sm mb-1">Surname <span className="text-red-500">*</span></label>
           <input
             type="text"
             value={surname}
@@ -65,7 +65,7 @@ const RegisterForm: React.FC<RegisterFormProps> = ({ onRegistrationSuccess }) =>
           />
         </div>
         <div>
-          <label className="block text-gray-600 text-sm mb-1">Username</label>
+          <label className="block text-gray-600 text-sm mb-1">Username <span className="text-red-500">*</span></label>
           <input
             type="text"
             value={username}
@@ -75,7 +75,7 @@ const RegisterForm: React.FC<RegisterFormProps> = ({ onRegistrationSuccess }) =>
           />
         </div>
         <div>
-          <label className="block text-gray-600 text-sm mb-1">Email</label>
+          <label className="block text-gray-600 text-sm mb-1">Email <span className="text-red-500">*</span></label>
           <input
             type="email"
             value={email}
@@ -85,7 +85,7 @@ const RegisterForm: React.FC<RegisterFormProps> = ({ onRegistrationSuccess }) =>
           />
         </div>
         <div>
-          <label className="block text-gray-600 text-sm mb-1">Password</label>
+          <label className="block text-gray-600 text-sm mb-1">Password <span className="text-red-500">*</span></label>
           <input
             type="password"
             value={password}
