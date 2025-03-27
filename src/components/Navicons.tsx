@@ -12,13 +12,12 @@ const NavIcons = () => {
 
   const router = useRouter();
 
-  ////////////////
   const isLoggedIn = false;
 
   const handleProfile = () => {
-    if (!isLoggedIn) {
-      router.push("/login");
-    }
+    // if (!isLoggedIn) {
+    //   router.push("/profile");
+    // }
     setIsProfileOpen((prev) => !prev);
   };
 
@@ -33,9 +32,9 @@ const NavIcons = () => {
         onClick={handleProfile}
       />
       {isProfileOpen && (
-        <div className="absolute p-4 rounded-md top-10 left-0 text-sm shadow-[0_3px_10px_rgb(0,0,0,0.2)] z-20">
-          <Link href="/">Profile</Link>
-          <div className="mt-2 cursor-pointer">Logout</div>
+        <div className="absolute p-4 rounded-md top-10 left-0 text-sm shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white z-50">
+          <Link href="/profile">Profile</Link>
+          <div className="mt-2 cursor-pointer bg-red-500 text-white px-1 py-1 rounded-md">Logout</div>
         </div>
       )}
       <Image
