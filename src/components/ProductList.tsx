@@ -28,11 +28,11 @@ const ProductList = () => {
         </div>
         <div className="text-sm text-gray-500 mb-2">My description</div>
         <div className="flex justify-between items-center">
-            <button className="rounded-2xl ring-0 bg-green-600 text-white w-max py-2 px-2 text-sm hover:bg-green-300 ">Add to Cart</button>
-            <div className="my-2 flex gap-2 bg-gray-300 rounded-2xl p-1">
+            <button className="rounded-xl ring-0 bg-green-600 text-white w-max py-2 px-2 text-sm hover:bg-green-300 ">Add to Cart</button>
+            <div className="my-2 flex gap-2 bg-transparent rounded-xl p-1 border shadow-black shadow-2xl">
               <p className="">Price:</p>
-              <span className="font-semibold text-green-500">$79</span>
               <span className="font-semibold text-gray-500 line-through"> $99</span>
+              <span className="font-semibold bg-green-500 text-white rounded-lg px-2">$79</span>
             </div>
         </div>
       </Link>
@@ -61,11 +61,11 @@ const ProductList = () => {
         </div>
         <div className="text-sm text-gray-500 mb-2">My description</div>
         <div className="flex justify-between items-center">
-            <button className="rounded-2xl ring-0 bg-green-600 text-white w-max py-2 px-2 text-sm hover:bg-green-300 ">Add to Cart</button>
-            <div className="my-2 flex gap-2 bg-gray-300 rounded-2xl p-1">
+            <button className="rounded-xl ring-0 bg-green-600 text-white w-max py-2 px-2 text-sm hover:bg-green-300 ">Add to Cart</button>
+            <div className="my-2 flex gap-2 bg-transparent rounded-xl p-1 border shadow-black shadow-2xl">
               <p className="">Price:</p>
-              <span className="font-semibold text-green-500">$79</span>
               <span className="font-semibold text-gray-500 line-through"> $99</span>
+              <span className="font-semibold bg-green-500 text-white rounded-lg px-2">$79</span>
             </div>
         </div>
       </Link>
@@ -94,11 +94,11 @@ const ProductList = () => {
         </div>
         <div className="text-sm text-gray-500 mb-2">My description</div>
         <div className="flex justify-between items-center">
-            <button className="rounded-2xl ring-0 bg-green-600 text-white w-max py-2 px-2 text-sm hover:bg-green-300 ">Add to Cart</button>
-            <div className="my-2 flex gap-2 bg-gray-300 rounded-2xl p-1">
+            <button className="rounded-xl ring-0 bg-green-600 text-white w-max py-2 px-2 text-sm hover:bg-green-300 ">Add to Cart</button>
+            <div className="my-2 flex gap-2 bg-transparent rounded-xl p-1 border shadow-black shadow-2xl">
               <p className="">Price:</p>
-              <span className="font-semibold text-green-500">$79</span>
               <span className="font-semibold text-gray-500 line-through"> $99</span>
+              <span className="font-semibold bg-green-500 text-white rounded-lg px-2">$79</span>
             </div>
         </div>
       </Link>
@@ -127,11 +127,11 @@ const ProductList = () => {
         </div>
         <div className="text-sm text-gray-500 mb-2">My description</div>
         <div className="flex justify-between items-center">
-            <button className="rounded-2xl ring-0 bg-green-600 text-white w-max py-2 px-2 text-sm hover:bg-green-300 ">Add to Cart</button>
-            <div className="my-2 flex gap-2 bg-gray-300 rounded-2xl p-1">
+            <button className="rounded-xl ring-0 bg-green-600 text-white w-max py-2 px-2 text-sm hover:bg-green-300 ">Add to Cart</button>
+            <div className="my-2 flex gap-2 bg-transparent rounded-xl p-1 border shadow-black shadow-2xl">
               <p className="">Price:</p>
-              <span className="font-semibold text-green-500">$79</span>
               <span className="font-semibold text-gray-500 line-through"> $99</span>
+              <span className="font-semibold bg-green-500 text-white rounded-lg px-2">$79</span>
             </div>
         </div>
       </Link>
