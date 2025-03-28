@@ -37,6 +37,9 @@ interface LoginFormProps {
         localStorage.setItem("token", data.token);
         setNotification({ message: "Login successful!", type: "success" });
         onSuccess();
+        setTimeout(() => {
+          window.location.reload(); 
+        }, 500);
         router.push("/profile");
       } catch (error) {
         setNotification({ message: "Something went wrong.", type: "error" });
